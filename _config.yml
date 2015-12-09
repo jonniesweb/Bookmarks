@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jon's Docker Bookmarks
+email: jon@jonsimpson.ca
+description: >
+  I read too many articles about Docker and always think "I should
+  catalog this article for later". Here's the
+  catalog that I've been meaning to build!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jonniesimpson
+github_username:  jonniesweb
+
+# Build settings
+markdown: kramdown

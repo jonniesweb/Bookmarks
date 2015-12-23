@@ -19,3 +19,6 @@ github_username:  jonniesweb
 
 # Build settings
 markdown: kramdown
+
+# Prevent travis-ci from exploding
+exclude: [vendor]

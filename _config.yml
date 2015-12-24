@@ -10,8 +10,8 @@ title: Jon's Bookmarks
 email: jon@jonsimpson.ca
 description: >
   I read too many articles about Docker and other interesting technologies and
-  always think "I should catalog this article for later". Here's the catalog
-  that I've been meaning to build!
+  always think &quot;I should catalog this article for later&quot;. Here's the
+  catalog that I've been meaning to build!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bookmarks.jonsimpson.ca" # the base hostname & protocol for your site
 twitter_username: jonniesimpson

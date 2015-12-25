@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Continuous Delivery: Anatomy of the Deployment Pipeline"
-date: 2015-12-23
-link: http://www.informit.com/articles/article.aspx?p=1621865
-tagline: The deployment pipeline explained, from the authors themselves
+date: "2015-12-23"
+link: "http://www.informit.com/articles/article.aspx?p=1621865"
+tagline: "The deployment pipeline explained, from the authors themselves"
 tags:
  - continuous delivery
 ---

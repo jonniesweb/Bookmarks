@@ -1,0 +1,12 @@
+<div class="tag-cloud">
+
+{% for tag in site.tags | sort %}
+  <li style="font-size:{{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 80 }}%">
+    <a class="tag" href="/{{ tag | first | slugize }}/">
+      {{ tag | first }}
+    </a>
+  </li>
+
+{% endfor %}
+
+</div>

@@ -240,3 +240,18 @@
         }
     }
 }
+
+.tag-cloud {
+
+  li {
+  margin: 5px;
+  display: inline-table;
+  background: $grey-color-light;
+  border-radius: $border-radius;
+  padding: 5px;
+
+    a {
+      margin: 0.5em;
+    }
+  }
+}

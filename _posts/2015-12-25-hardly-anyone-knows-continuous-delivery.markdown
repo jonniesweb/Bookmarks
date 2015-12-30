@@ -3,7 +3,7 @@ layout: post
 title: "Hardly Anyone Knows Continuous Delivery"
 date: "2015-12-25 10:52"
 link: "https://www.go.cd/2015/06/23/hardly-anyone-knows-cd.html"
-tagline: "Only a small minority of people know what Continuous Delivery is. This article provides a few ways to inform others"
+summary: "Only a small minority of people know what Continuous Delivery is. This article provides a few ways to inform others"
 tags:
  - continuous delivery
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Docker in Production: Reality, Not Hype"
 date: "2015-12-08"
 link: "http://sysadvent.blogspot.ca/2014/12/day-1-docker-in-production-reality-not.html"
-tagline: "The first article that got me interested in Docker"
+summary: "The first article that got me interested in Docker"
 tags:
  - docker
  - tutorial

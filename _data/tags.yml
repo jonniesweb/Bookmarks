@@ -1,0 +1,10 @@
+refactoring:
+  name: Refactoring
+development:
+  name: Development
+continuous-delivery:
+  name: Continuous Delivery
+tutorial:
+  name: Tutorial
+docker:
+  name: Docker

@@ -5,7 +5,7 @@ date: "2015-12-25 10:52"
 link: "https://www.go.cd/2015/06/23/hardly-anyone-knows-cd.html"
 summary: "Only a small minority of people know what Continuous Delivery is. This article provides a few ways to inform others"
 tags:
- - continuous delivery
+ - continuous-delivery
 ---
 It might seem common in tech companies, but continuous delivery isn't that widespread and understood. It's possibly one of the biggest productivity and agile boosters besides continuous integration, therefore every person involved in the software lifecycle should know of it and understand the benefits.
 

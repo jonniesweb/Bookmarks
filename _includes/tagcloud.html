@@ -3,7 +3,8 @@
 {% for tag in site.tags | sort %}
   <li style="font-size:{{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 80 }}%">
     <a class="tag" href="/tag/{{ tag | first | slugize }}/">
-      {{ tag | first }}
+      {% assign t = tag | first %}
+      {{ site.data.tags[t].name }}
     </a>
   </li>
 

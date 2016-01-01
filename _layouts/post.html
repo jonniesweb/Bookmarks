@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <a href='{{ page.link }}'><h1 class="post-title" itemprop="name headline">{{ page.title }}</h1></a>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
 
   {% assign post = page %}
   {% if post.tags.size > 0 %}
-    {% capture tags_content %}Tagged with: {% endcapture %}
+    {% capture tags_content %}{% endcapture %}
     {% for post_tag in post.tags %}
       {% assign tag = site.data.tags[post_tag] %}
       {% capture tags_content_temp %}{{ tags_content }}
@@ -26,6 +16,18 @@ layout: default
     {% assign tags_content = '' %}
   {% endif %}
 
-<p id="post-meta">{{ tags_content }}</p>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <a href='{{ page.link }}'><h1 class="post-title" itemprop="name headline">{{ page.title }}</h1></a>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> <span class="tags">{{ tags_content }}</span> {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+
 
 </article>

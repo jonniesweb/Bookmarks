@@ -8,3 +8,9 @@ tutorial:
   name: Tutorial
 docker:
   name: Docker
+cloud:
+  name: Cloud
+devops:
+  name: DevOps
+hot-technology:
+  name: Hot Technology

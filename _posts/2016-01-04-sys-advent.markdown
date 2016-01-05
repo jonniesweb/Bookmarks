@@ -2,7 +2,8 @@
 layout: post
 title: "Sys Advent"
 date: "2016-01-04 23:29"
-summary: Topics from DevOps and hot new technologies are posted each day from December 1st to 25th
+link: "https://sysadvent.blogspot.ca/"
+summary: Fresh topics from DevOps and hot new technologies are posted each day from December 1st to 25th
 tags:
  - devops
  - hot-technology

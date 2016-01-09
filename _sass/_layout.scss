@@ -242,13 +242,14 @@
 }
 
 .tag-cloud {
+  margin-bottom: 2em;
 
   li {
-  margin: 5px;
-  display: inline-table;
-  background: $grey-color-light;
-  border-radius: $border-radius;
-  padding: 5px;
+    margin: 5px;
+    display: inline-table;
+    background: $grey-color-light;
+    border-radius: $border-radius;
+    padding: 5px;
 
     a {
       margin: 0.5em;
@@ -273,4 +274,12 @@ h1 {
 
 .tags {
   padding-left: 5px;
+}
+
+.tag-section {
+  margin: 2em 0;
+}
+
+.tag-section h2 a {
+  color: $text-color;
 }

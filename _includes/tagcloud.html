@@ -4,7 +4,7 @@
 
 {% for tag in tag_words %}
   <li style="font-size:{{ site.tags[tag] | size | times: 100 | divided_by: site.tags.size | plus: 80 }}%">
-    <a class="tag" href="/tag/{{ tag | slugize }}/">
+    <a class="tag" href="/tags/#{{ tag | slugize }}">
       {% assign realname = site.data.tags[tag].name %}
       <!-- use pretty name if available -->
       {% if realname %}{{ realname }}{% else %}{{ tag }}{% endif %}

@@ -1,0 +1,23 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+{% include tagcloud.html %}
+
+<div class="">
+  {% for tag in tag_words %}
+    <div class="tag-section">
+      <h2 id="{{ tag | slugize }}"><a href="#{{ tag | slugize }}">{% include tag.html tag=tag %}</a></h2>
+      <ul class="post-list list-condensed">
+        {% for post in site.tags[tag] %}
+          <li class=""><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

@@ -4,6 +4,8 @@ development:
   name: Development
 continuous-delivery:
   name: Continuous Delivery
+continuous-integration:
+  name: Continuous Integration
 tutorial:
   name: Tutorial
 docker:

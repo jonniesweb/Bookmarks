@@ -10,6 +10,8 @@ tutorial:
   name: Tutorial
 docker:
   name: Docker
+docker-swarm:
+  name: Docker Swarm
 cloud:
   name: Cloud
 devops:

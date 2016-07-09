@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Jon's Bookmarks started out as an idea to catalog all of the handy Docker articles that I've been reading. Soon after the site's inception the idea of expanding the breadth of articles to be bookmarked was made to include anything Technology related.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Find Jon at his site [jonsimpson.ca](https://jonsimpson.ca). Check him out on GitHub at {% include icon-github.html username="jonniesweb" %}
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This site uses [Jekyll](http://jekyllrb.com/) and the excellent [GitHub Pages](https://pages.github.com). Find this site's repository at {% include icon-github.html username="jonniesweb" %} / [bookmarks](https://github.com/jonniesweb/bookmarks). Pull requests and issues are welcome.

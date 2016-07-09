@@ -18,3 +18,9 @@ devops:
   name: DevOps
 hot-technology:
   name: Hot Technology
+restful:
+  name: RESTful
+api:
+  name: API
+best-practices:
+  name: Best Practices
